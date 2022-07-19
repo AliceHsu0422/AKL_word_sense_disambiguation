@@ -11,7 +11,7 @@
 到我們的模型，最後再使用到semcor package 去對於我們模型做準確度的測試。而測試集
 資料採用的是向助教諮詢過後所拿到的論文資料，並利用網站去做呈現及demo。
 ### 3.步驟
-![Alt text](/Users/cchsu/Desktop/NLP/final_project/messageImage_1658198751413.jpeg)
+![Alt text](https://github.com/AliceHsu0422/AKL_word_sense_disambiguation/blob/master/WSD_process.jpeg)
 
 首先針對論文文字進行前處理，包含大小寫、標點符號以及詞性變
 換還原等，再利用Hugging Face的fill-mask找尋適宜的替代字候補，有候補名單後再利用
